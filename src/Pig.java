@@ -26,7 +26,15 @@ public class Pig {
 
     // Implement your solution here!
     public static String pigLatin(String sentence) {
-        return null;
+        
+        pig latin == pigLatin {'a'} [0]
+        pig latin == pigLatin {'e'} [0]
+        pig latin == pigLatin {'i'} [0]
+        pig latin == pigLatin {'0'} [0]
+        pig latin == pigLatin {'u'} [0]
+
+        
+        
     }
 
 
