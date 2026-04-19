@@ -33,8 +33,8 @@ public class Pig {
         pig latin == pigLatin {'0'} [0]
         pig latin == pigLatin {'u'} [0]
 
-        
-        
+
+        i
     }
 
 
