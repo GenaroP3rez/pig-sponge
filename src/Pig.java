@@ -37,21 +37,24 @@ public class Pig {
             result += " ";
         }
 
+        result = result.substring(0, result.length() -1);
+        return result; 
+    }
+
+
         private static String pigLatinSingleWord(String word){
-            if (word.charAt (0) == 'a' || word.charAt (0) ||  (word.charAt (0) == 'e' || word.charAt (0)) || (word.charAt (0) == 'i' || word.charAt (0) || (word.charAt (0) == 'o' || word.charAt (0) ||  (word.charAt (0) == 'u') {
+            if (word.charAt(0) == 'a' || 
+             word.charAt(0) == 'e' || 
+              word.charAt(0) == 'i' || 
+               word.charAt(0) == 'o' ||  (word.charAt (0) == 'u')) {
                     return word;
-
-
         }
     }
 
 
      char firstLetter = word.charAt(0);
-
      word = word.substring(1);
-
      word = word + firstLetter;
-
      return word + "ay";
 
 
