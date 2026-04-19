@@ -26,7 +26,22 @@ public class Pig {
 
     // Implement your solution here!
     public static String pigLatin(String sentence) {
-        
+
+        String[] words = sentence.split(" ");
+
+        String result = "";
+
+        for (String word : words){
+
+            result += pigLatinSingleWord(word);
+            result += " ";
+        }
+
+
+
+
+
+        //my code
         pig latin == pigLatin {'a'} [0]
         pig latin == pigLatin {'e'} [0]
         pig latin == pigLatin {'i'} [0]
