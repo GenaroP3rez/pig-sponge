@@ -46,36 +46,36 @@ public class Pig {
     }
 
 
-    // char firstLetter = word.charAt(0);
+     char firstLetter = word.charAt(0);
 
-    // word = word 
+     word = word.substring(1);
 
+     word = word + firstLetter;
 
-
-
+     return word + "ay";
 
 
 
         //my code
-        pig latin == pigLatin {'a'} [0]
-        pig latin == pigLatin {'e'} [0]
-        pig latin == pigLatin {'i'} [0]
-        pig latin == pigLatin {'0'} [0]
-        pig latin == pigLatin {'u'} [0]
+    //     pig latin == pigLatin {'a'} [0]
+    //     pig latin == pigLatin {'e'} [0]
+    //     pig latin == pigLatin {'i'} [0]
+    //     pig latin == pigLatin {'0'} [0]
+    //     pig latin == pigLatin {'u'} [0]
 
-        for();
-        if(i=0 i = _ i++){
-            if else{
-                return __
+    //     for();
+    //     if(i=0 i = _ i++){
+    //         if else{
+    //             return __
 
-            }
-            else {
-                return 
-            }
-        }
+    //         }
+    //         else {
+    //             return 
+    //         }
+    //     }
 
     
-    }
+    // }
 
 
 
