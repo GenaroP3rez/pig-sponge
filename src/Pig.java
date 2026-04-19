@@ -42,20 +42,21 @@ public class Pig {
     }
 
 
-        private static String pigLatinSingleWord(String word){
+    private static String pigLatinSingleWord(String word){
             if (word.charAt(0) == 'a' || 
              word.charAt(0) == 'e' || 
               word.charAt(0) == 'i' || 
                word.charAt(0) == 'o' ||  (word.charAt (0) == 'u')) {
                     return word;
         }
-    }
+    
 
 
      char firstLetter = word.charAt(0);
      word = word.substring(1);
      word = word + firstLetter;
      return word + "ay";
+}
 
 
 
