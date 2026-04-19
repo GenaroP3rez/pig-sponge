@@ -60,7 +60,7 @@ public class Pig {
 
 
 
-        //my code
+        //my code/attempt 
     //     pig latin == pigLatin {'a'} [0]
     //     pig latin == pigLatin {'e'} [0]
     //     pig latin == pigLatin {'i'} [0]
