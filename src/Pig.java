@@ -33,14 +33,19 @@ public class Pig {
         pig latin == pigLatin {'0'} [0]
         pig latin == pigLatin {'u'} [0]
 
+        for();
+        if(i=0 i = _ i++){
+            if else{
+                return __
 
-        i
+            }
+            else {
+                return 
+            }
+        }
+
+    
     }
-
-
-
-
-
 
 
 
