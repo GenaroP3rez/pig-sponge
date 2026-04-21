@@ -33,7 +33,21 @@ public class Sponge {
 
   // Implement your solution here!
   public static String spongeCase(String sentence) {
-    return null;
+    String []wordsStrings = sentence.Split("");
+
+
+    String[] result = " ";
+
+    for (String[] word : words){
+      result = 
+    }
+
+
+
+
+    }
+    
+  
   }
 
 
