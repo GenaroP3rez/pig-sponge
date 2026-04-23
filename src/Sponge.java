@@ -38,8 +38,13 @@ public class Sponge {
 
     String[] result = " ";
 
-    for (String[] word : words){
-      result = 
+    for (String word : words){
+      result += spongeSingleWord(word);
+      result += "";
+
+
+
+      //follow comment as persut and do it YOU GOT THIS-Hilson
     }
 
 
@@ -59,4 +64,3 @@ public class Sponge {
       System.out.println("Test " + testNumber + " passed!");
     }
   }
-}
