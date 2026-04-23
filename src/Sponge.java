@@ -33,27 +33,51 @@ public class Sponge {
 
   // Implement your solution here!
   public static String spongeCase(String sentence) {
-    String []wordsStrings = sentence.Split("");
+    String[] words = sentence.split(" ");
 
 
-    String[] result = " ";
+    String result = " ";
 
     for (String word : words){
       result += spongeSingleWord(word);
-      result += "";
+      result += " ";
 
 
 
       //follow comment as persut and do it YOU GOT THIS-Hilson
     }
+    result = result.substring(0, result.length() - 1);
 
+    return result;
+    }
+    result = result.substring(0, result.length() -1);
+
+    return result;
+    
+  }
+
+  private static String spongeSingleWord(String word) {
+
+    String newWord = ""; 
+
+    boolean lower = true;
+
+    for (char letter : word.toCharArray()){
+      if (lower){
+
+        newWord += Character.toLowerCase(letter);
+      }
 
 
 
     }
-    
-  
+
+
   }
+
+
+
+
 
 
   // Method to help with testing, you do not need to read this.
