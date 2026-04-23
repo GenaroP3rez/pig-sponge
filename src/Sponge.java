@@ -36,7 +36,7 @@ public class Sponge {
     String[] words = sentence.split(" ");
 
 
-    String result = " ";
+    String result = "";
 
     for (String word : words){
       result += spongeSingleWord(word);
@@ -49,11 +49,8 @@ public class Sponge {
     result = result.substring(0, result.length() - 1);
 
     return result;
-    }
-    result = result.substring(0, result.length() -1);
-
-    return result;
     
+
   }
 
   private static String spongeSingleWord(String word) {
@@ -86,3 +83,4 @@ public class Sponge {
       System.out.println("Test " + testNumber + " passed!");
     }
   }
+}
