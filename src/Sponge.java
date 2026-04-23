@@ -67,16 +67,14 @@ public class Sponge {
 
         newWord += Character.toLowerCase(letter);
       }
+      else {
+        newWord += Character.toUpperCase(letter);
+      }
 
-
-
+      lower = !lower;
     }
-
-
+    return newWord;
   }
-
-
-
 
 
 
